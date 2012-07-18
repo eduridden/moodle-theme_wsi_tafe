@@ -117,6 +117,7 @@ echo $OUTPUT->doctype() ?>
 <div id="footerwrap">
 <div id="footer-right">
 <div id="page-footer">
+
 	<div id="footnote"><?php echo $PAGE->theme->settings->footnote;?></div>
 
     <?php
