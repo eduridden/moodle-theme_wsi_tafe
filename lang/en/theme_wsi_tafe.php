@@ -33,3 +33,5 @@ $string['customcssdesc'] = 'Any CSS you enter here will be added to every page a
 $string['mycourses'] = 'My Courses';
 $string['regionwidth'] = 'Column width';
 $string['regionwidthdesc'] = 'This sets the width of the two block regions that form the left and right columns.';
+$string['footnote'] = 'Foooter Content';
+$string['footnotedesc'] = 'Content to display in page footer';
