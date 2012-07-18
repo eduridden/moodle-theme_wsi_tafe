@@ -16,7 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 13px;
-	background: url([[pix:theme|bodybg]]) no-repeat 0 0 #fff;
+	background: url([[pix:theme|bodybg]]) no-repeat 0 0 [[setting:themecolor]];
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, td, th, input, textarea {
@@ -127,20 +127,20 @@ ul.home-quick-links li a:last-child {
 #page-header {
 	padding: 0;
 	margin: 0 auto;
-	background: url([[pix:theme|headbg]]) repeat-x #fff;
+	background: url([[pix:theme|headbg]]) repeat-x [[setting:themecolor]];
 	height: 103px;
 }
 
 #frontpage-header {
 	padding: 0;
 	margin: 0 auto;
-	background: url([[pix:theme|headbg]]) repeat-x #fff;
+	background: url([[pix:theme|headbg]]) repeat-x [[setting:themecolor]];
 	height: 113px;
-	border-bottom: 5px solid #e4d6e4;
+	border-bottom: 5px solid [[setting:bordercolor]];
 }
 
 #page-header-wrapper {
-	background: url([[pix:theme|logo]]) no-repeat 0 0 transparent;
+	background: transparent;
 	position: relative;
 	height: 103px;
 	margin: 0 auto;
@@ -152,6 +152,9 @@ ul.home-quick-links li a:last-child {
 	top: 0;
 	padding: 0;
 	margin: 0;
+	width: 283px;
+	height: 100;
+	background: url([[pix:theme|logo]]) no-repeat [[setting:themecolor]];
 }
 
 #page-header-wrapper p#homelink a {
@@ -173,7 +176,7 @@ ul.home-quick-links li a:last-child {
 }
 
 .headermenu a {
-	color: #673766;
+	color: [[setting:themecolor]];
 	font-weight: bold;
 }
 
@@ -184,7 +187,7 @@ ul.home-quick-links li a:last-child {
 }
 
 .logininfo a {
-	color: #673766;
+	color: [[setting:themecolor]];
 }
 
 
@@ -289,7 +292,7 @@ ul.home-quick-links li a:last-child {
 }
 
 #custom-menu-wrapper li:first-child a:hover { background: url([[pix:theme|menubg_o]]) repeat-x 0 100%; }
-#custom-menu-wrapper li ul li:first-child a:hover, #custom-menu-wrapper li ul li ul li:first-child a:hover { background: none; background-color: #763172; }
+#custom-menu-wrapper li ul li:first-child a:hover, #custom-menu-wrapper li ul li ul li:first-child a:hover { background: none; background-color: [[setting:themecolor]]; }
 #custom-menu-wrapper li ul li, #custom-menu-wrapper li ul li ul li, #custom-menu-wrapper li ul li ul li ul li { background: none; }
 
 #custom-menu-wrapper ul li:hover > a, #custom-menu-wrapper .yui3-menu .yui3-menu-label-active, 
@@ -322,7 +325,7 @@ ul.home-quick-links li a:last-child {
 }
 
 #custom-menu-wrapper ul li ul li:hover > a {
-	background: url([[pix:theme|arrow-next]]) no-repeat 100% 50% #763172;
+	background: url([[pix:theme|arrow-next]]) no-repeat 100% 50% [[setting:themecolor]];
 	line-height: 24px;
 	height: 24px;
 	color: #fff;
@@ -343,7 +346,7 @@ ul.home-quick-links li a:last-child {
 
 #custom-menu-wrapper .yui3-menu .yui3-menu .yui3-menu-label-active, 
 #custom-menu-wrapper .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {
-	background: url([[pix:theme|arrow-down]]) no-repeat 100% 50% #763172;
+	background: url([[pix:theme|arrow-down]]) no-repeat 100% 50% [[setting:themecolor]];
 	color: #fff;
 }
 
@@ -371,7 +374,7 @@ ul.home-quick-links li a:last-child {
 	height: 35px;
 	background: #fff;
 	font-size: 0.9em;
-	border-bottom: 5px solid #e4d6e4;
+	border-bottom: 5px solid [[setting:bordercolor]];
 }
 
 .navbar .wrapper {
@@ -520,7 +523,7 @@ td.eventskey {
 }
 
 .block_comments .comment-area a {
-    background: #763172;
+    background: [[setting:themecolor]];
 	color: #fff;
     padding: 5px;
     border: 1px solid #e5e5e5;
@@ -583,7 +586,7 @@ td.eventskey {
 
 .block_login .content {
     border: 1px solid #979098;
-    background: #753175;
+    background: [[setting:themecolor]];
 	-moz-border-radius-topright: 8px;
 	-webkit-border-top-right-radius: 8px;
 	-moz-border-radius-topleft: 8px;
@@ -631,7 +634,7 @@ td.eventskey {
 }
 
 .forumpost .topic {
-	background: url([[pix:theme|tablehead]]) repeat-x 100% 0 #652565;
+	background: url([[pix:theme|tablehead]]) repeat-x 100% 0 [[setting:themecolor]];
 	border-bottom: none;
 	padding: 13px;
 	color: #fff;
@@ -675,7 +678,7 @@ h2.headingblock {
 	padding: 8px 0 7px;
 	font-size: 2.4em;
 	font-weight: normal;
-	color: #673766;
+	color: [[setting:themecolor]];
 	border-width: 0 0 1px 0;
 	border-style: solid;
 	border-color: #ccc;
@@ -949,7 +952,7 @@ h2.headingblock {
 .plugincompattable th,
 .environmenttable th,
 .forumheaderlist th {
-	background: url([[pix:theme|tablehead]]) repeat-x 100% 0 #652565;
+	background: url([[pix:theme|tablehead]]) repeat-x 100% 0 [[setting:themecolor]];
 	color: #fff;
 }
 
