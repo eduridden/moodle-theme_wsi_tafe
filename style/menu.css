@@ -1,0 +1,177 @@
+/* Custom Menu
+-------------------------- */
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content,
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content .ul {border: none;}
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content {font-size:1em;line-height:1em;padding:0;}
+#custommenu .yui3-menu-horizontal.javascript-disabled li a {padding:0 14px;}
+#custommenu .yui3-menu-horizontal.javascript-disabled>.yui3-menu-content>ul>li {float:left;}
+
+#custommenu {
+    padding: 0;
+    margin: 0 0 0 300px;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    float: right;
+}
+
+#custommenu ul li {
+    display: inline;
+    float: left;
+    position: relative;
+    background: url([[pix:theme|menubg]]) no-repeat 0 0;
+}
+
+#custommenu ul li a:hover {
+	color: #000;
+}
+
+#custommenu ul li ul li{
+    background: none;
+}
+
+#custommenu ul li ul li a,
+#custommenu ul li ul li a:hover{
+    color: #fff;
+}
+
+#custommenu ul li ul li ul {
+	border-left: 1px solid #000;
+}
+
+#custommenu ul li ul li:hover {
+    background: [[setting:themecolor]];
+}
+
+#custom-menu-wrapper ul li a {
+	float: none;
+	display: block;
+	height: 30px;
+	line-height: 28px;
+	padding: 0 14px 0;
+	cursor: pointer;
+	text-decoration: none; 
+	text-align: left; 
+	color: #8C8C8C;
+	font-weight: bold;
+	margin-top: 0px !important;
+    padding-top: 0px !important;
+	margin-bottom: 0;
+	vertical-align: top;
+	letter-spacing: 0px;
+}
+
+/*
+Dropdown Menu - CSS from DeCaf Theme by Lei Zhang
+-------------------------------------------------*/
+ul.dropdown span.customitem {
+    padding:0;
+    border:0;
+    width: 100%;
+}
+ul.dropdown span.customitem {
+    padding:0;
+    width: 100%;
+}
+ul.dropdown li a,
+ul.dropdown span.customitem a {
+    padding:6px 20px;
+}
+ul.dropdown span.customitem a:hover {
+    border: 0;
+}
+#custommenu ul.dropdown ul {
+    padding:0;
+    width:auto;
+}
+#custommenu ul.dropdown ul a {
+    padding:4px 18px;
+}
+#custommenu ul.dropdown > li span a {
+    height:16px;
+}
+ul.dropdown,
+ul.dropdown li,
+ul.dropdown ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul.dropdown {
+    position:relative;
+    top:0px;
+    z-index:597;
+    float:left;
+}
+ul.dropdown li {
+    float:left;
+    line-height:1.3em;
+    vertical-align:middle;
+    color:#fff;
+    zoom:1 !important;
+    height: 30px;
+}
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    position:relative;
+    z-index:599;
+    cursor:default;
+}
+ul.dropdown ul {
+    visibility:hidden;
+    position:absolute;
+    top:100%;
+    z-index:598;
+    left:0;
+    right:auto;
+    margin-top: 0px;
+    background: #252525;
+}
+
+ul.dropdown ul ul {
+    top:0;
+    right:auto;
+    left:100%;
+    margin-top:0;
+    font-weight:400;
+    border: 0px none;
+}
+ul.dropdown li:hover > ul {
+    visibility:visible;
+}
+ul.dropdown span,
+ul.dropdown span a,
+ul.dropdown li.clickable-with-children > a {
+    background: transparent;
+    width:auto;
+    padding:2px 6px 4px 20px;
+    color: #fff;
+}
+ul.dropdown ul span,
+ul.dropdown ul span a,
+ul.dropdown ul li.clickable-with-children > a {
+    background-image: url([[pix:theme|arrow-next]]);
+    background-position:100% 100%;
+    background-repeat:no-repeat;
+}
+ul.dropdown ul ul span,
+ul.dropdown ul ul span a,
+ul.dropdown ul ul li.clickable-with-children > a {
+    background-image: url([[pix:theme|arrow-next]]);
+    background-position:100% 100%;
+    background-repeat:no-repeat;
+}
+
+ul.dropdown a,ul.dropdown span{
+    display:block;
+}
+ul.dropdown ul a {
+    width:166px;
+    padding:2px 0 4px 5px;
+}
+ul.dropdown ul a.open:hover {
+    color:#036;
+}
