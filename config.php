@@ -25,6 +25,7 @@ $THEME->sheets = array(
     'pagelayout',
     'core',
     'report',
+    'menu'
 );
 
 ////////////////////////////////////////////////////
